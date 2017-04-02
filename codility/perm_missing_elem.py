@@ -1,5 +1,6 @@
 # coding: utf-8
 # Task description
+
 """
 A zero-indexed array A consisting of N different integers is given.
 The array contains integers in the range [1..(N + 1)], which means that exactly
@@ -36,6 +37,7 @@ def solution(A):
     return sum(xrange(1, len(A) + 2)) - sum(A)
 
 # Verification
+
 if __name__ == "__main__":
     from random import choice, shuffle
 
