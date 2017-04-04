@@ -2,8 +2,6 @@
 # Task description
 
 """
-
-Task description
 A non-empty zero-indexed array A consisting of N integers is given. Array A
 represents numbers on a tape.
 
@@ -77,7 +75,7 @@ def solution(A):
 # Verification
 
 if __name__ == "__main__":
-    assert solution([3,1,2,4,3]) == 1
+    assert solution([3, 1, 2, 4, 3]) == 1
     assert solution([-1000, 1000]) == 2000
     assert solution([1000, 1000]) == 0
-    assert solution([1,-1,1,-1,1,-1,1,-1]) == 0
+    assert solution([1, -1, 1, -1, 1, -1, 1, -1]) == 0
