@@ -21,13 +21,16 @@ For example, given array A such that:
 the function should return 4, as it is the missing element.
 
 Assume that:
+
 N is an integer within the range [0..100,000];
 the elements of A are all distinct;
 each element of array A is an integer within the range [1..(N + 1)].
+
 Complexity:
 
 expected worst-case time complexity is O(N);
 expected worst-case space complexity is O(1), beyond input storage (not counting the storage required for input arguments).
+
 Elements of input arrays can be modified.
 """
 
@@ -54,9 +57,9 @@ if __name__ == "__main__":
     assert solution([2, 3, 1, 5]) == 4
     assert solution([]) == 1
     assert solution([2]) == 1
-    assert solution([3,5,4,1,2]) == 6
-    assert solution([3,5,4,2]) == 1
-    assert solution([1,3]) == 2
+    assert solution([3, 5, 4, 1, 2]) == 6
+    assert solution([3, 5, 4, 2]) == 1
+    assert solution([1, 3]) == 2
     seq, number = seq_without_one_element(10000)
     assert solution(seq) == number
     seq, number = seq_without_one_element(100000)
