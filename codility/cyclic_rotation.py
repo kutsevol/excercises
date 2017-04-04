@@ -36,9 +36,9 @@ def solution(A, K):
 # Verification
 
 if __name__ == "__main__":
-    assert solution([3, 8, 9, 7, 6], 3) == [9,7,6,3,8]
-    assert solution([1, 2 ,3], 5) == [2,3,1]
+    assert solution([3, 8, 9, 7, 6], 3) == [9, 7, 6, 3, 8]
+    assert solution([1, 2 ,3], 5) == [2, 3, 1]
     assert solution([], 4) == []
-    assert solution([1,2,3,4,5], 0) == [1,2,3,4,5]
-    assert solution([2,3], 2) == [2,3]
+    assert solution([1, 2, 3, 4, 5], 0) == [1, 2, 3, 4, 5]
+    assert solution([2, 3], 2) == [2, 3]
     assert solution([5, -1000], 1) == [-1000, 5]
